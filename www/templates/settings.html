@@ -1,0 +1,62 @@
+<ion-view view-title="Settings">
+  <ion-content ng-class="{expanded:$scope.isExpanded}">
+    <div class="content">
+      <div class="list">
+        <div class="row">
+          <div class="col col-25">
+            <div class="item-avatar-left">
+              <img src="img/tyrion.jpg"/>
+            </div>
+          </div>
+          <div class="col">
+            <h3>Jorge Mendes</h3>
+            <a ui-sref="app.login" class="item">SIGN OUT</a>
+          </div>
+        </div>
+        <div class="list-item padding-left padding-bottom">
+          <h4><strong>My Bookmark</strong></h4>
+        </div>
+        <div class="item-divider-android padding-left">
+          <h4>App Settings</h4>
+        </div>
+        <hr/>
+        <div class="list-item padding-left no-padding-bottom">
+          <h4><strong>Text Size</strong></h4>
+        </div>
+        <div class="item range padding-left no-padding-top">
+          <i class="icon ion-minus"></i>
+          <input type="range" name="volume" min="0" max="100" value="33">
+          <i class="icon ion-plus"></i>
+        </div>
+        <ion-toggle><h2><strong>Notifications</strong></h2></ion-toggle>
+        <div class="item-divider-android padding-left">
+          <h4>Support</h4>
+        </div>
+        <hr/>
+        <div class="list-item padding-left no-padding-top">
+          <h4><i class="icon ion-android-star"></i> <strong>Rate Us</strong></h4>
+        </div>
+        <div class="list-item padding-left">
+          <h4><i class="icon ion-share"></i> <strong>Share This App</strong></h4>
+        </div>
+        <div class="item-divider-android padding-left">
+          <h4>Information</h4>
+        </div>
+        <hr/>
+        <div class="list-item padding-left no-padding-top">
+          <h4><i class="icon ion-android-person"></i> <strong>About Us</strong></h4>
+        </div>
+        <div class="list-item padding-left no-padding-top">
+          <h4><i class="icon ion-ios-paper"></i> <strong>Term of Use</strong></h4>
+        </div>
+        <div class="list-item padding-left no-padding-top">
+          <h4><i class="icon ion-lock-combination"></i> <strong>Privacy Policy</strong></h4>
+        </div>
+        <div class="list-item padding-left">
+          <h4><i class="icon ion-android-apps"></i> <strong>App Version</strong>: 1.0.6</h4>
+        </div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
+

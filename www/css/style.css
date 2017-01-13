@@ -1,0 +1,209 @@
+/* General
+==================================*/
+
+h1 {
+  color: #fff;
+  text-shadow: 0 1px 0px #000;
+  font-size: 42px;
+}
+
+
+/* Utilities
+==================================*/
+
+.title-bordered {
+  border-top: solid 2px #bbb;
+  padding-top: 30px;
+}
+
+p {
+  color: #555;
+  margin: 0 0 25px;
+}
+
+.scroll {
+  height: 100%;
+}
+
+
+/* Menu
+==================================*/
+
+.menu .bar.bar-header.expanded {
+  transition: all .5s ease-in-out;
+}
+
+.menu-open .bar.bar-header.expanded {
+  background-color: #507DC6;
+}
+
+.menu h2 {
+  bottom: 0;
+  font-size: 18px;
+  left: 16px;
+  position: absolute;
+}
+
+.menu .avatar {
+  height: 88px;
+  width: 88px;
+}
+
+.menu.menu-left * {
+  font-weight: bold;
+}
+
+.menu-open .ion-navicon {
+  transform: rotate(-360deg);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.menu-open .ion-navicon:before {
+  content: "\f2ca";
+}
+
+
+/* Login
+==================================*/
+
+.app-icon {
+  background-color: #fff;
+  background: url('../img/crown.jpg') center;
+  background-size: cover;
+  border-radius: 50%;
+  height: 125px;
+  margin: 0 auto;
+  width: 125px;
+}
+
+.social-login {
+  position: fixed;
+  bottom: 0;
+}
+
+.von-color {
+  color: #507DC6;
+}
+
+.bar-assertive-900 {
+  background: #507DC6 !important;
+}
+
+.tabs-assertive {
+  background: #507DC6 !important;
+}
+
+.news-img-thumb {
+  display: inline-block;
+  height: 80px;
+  left: 5px;
+  position: absolute;
+  width: 80px;
+}
+
+audio {
+  padding-top: 100px;
+}
+
+video {
+  width: 100% !important;
+  height: auto !important;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.cat {
+  margin: 10px 10px 10px 10px;
+}
+
+
+/*
+Put these in your css at the bottom or create css file called patch.css
+and make it your last css file to be imported at the :end
+*/
+
+.hero>.content {
+  background: rgba(0, 0, 0, 0.24) !important;
+  padding: 5px 8px 0px !important;
+}
+
+.hero {
+  height: 280px !important;
+  margin-top: -1.3rem !important;
+}
+
+.card .item:last-child,
+.list-inset .item:last-child {
+  margin-bottom: -1px !important;
+  padding: 0 !important;
+}
+
+ion-content .hero .card img {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .26) !important;
+  display: block !important;
+  max-height: inherit !important;
+  position: static !important;
+  float: left !important;
+  width: auto !important;
+  height: 120px !important;
+}
+
+.item,
+.item h1,
+.item h2,
+.item h3,
+.item h4,
+.item h5,
+.item h6,
+.item p,
+.item-content,
+.item-content h1,
+.item-content h2,
+.item-content h3,
+.item-content h4,
+.item-content h5,
+.item-content h6,
+.item-content p {
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+  padding: 10px !important;
+}
+
+i.icon.news-timestamp.ion-clock {
+  margin-left: 10px !important;
+  color: red;
+}
+
+img.news-img-thumb {
+  height: 7rem;
+  max-height: inherit !important;
+  max-width: inherit;
+  float: left;
+  width: initial;
+  margin-right: 0.1rem;
+}
+
+.item h3, .item h4, .item h5, .item h6, .item p, .item-content, .item-content h1, .item-content h2, .item-content h3, .item-content h4, .item-content h5, .item-content h6, .item-content p {
+  white-space: initial !important;
+  padding: 10px !important;
+  text-overflow: initial !important;
+  line-height: 20px;
+}
